@@ -1,0 +1,76 @@
+.topbarContainer{
+  background:#fff;
+  width:100%;
+  position:fixed;
+  top:0;
+  height:60px;
+  z-index:101;
+  box-shadow: 0 2px 15px 0 rgba(0,0,0,.05);
+  padding: 0;
+}
+
+.topbarContainer.MuiContainer-root{
+  max-width: 100%;
+}
+
+
+.topbarContainer.MuiContainer-root,
+.topbarWrapper.MuiContainer-root,
+.topbarLeft.MuiContainer-root,
+.topbarRight.MuiContainer-root{
+  padding: 0;
+}
+
+.topbarLeft.MuiContainer-root{
+  width: auto;
+}
+
+.topbarRight.MuiContainer-root{
+  text-align: right;
+}
+
+.topbarWrapper{
+  display: flex;
+  position:relative;
+}
+
+.topbarLeft{
+  display: flex;
+  /* width: 50%; */
+  height: 100%;
+}
+
+.topbarRight{
+  height: 100%;
+  display: flex;
+  margin-right: 15px;
+}
+
+.topbarRight h4{
+  font-weight: 300;
+  line-height: 60px;
+  margin-left: auto;
+  margin-right: 20px;
+  height: 100%;
+
+}
+
+.topbarBurgerButton{
+  width: 60px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+  height: 60px;
+}
+
+
+.topbarBurgerButton:hover{
+  background: #eef;
+}
+
+.topbarBurgerButton img{
+  width: 16px;
+  margin: auto;
+}
