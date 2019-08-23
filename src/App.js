@@ -1,12 +1,17 @@
-import React from 'react';
-import Topbar from './components/UI/Topbar/Topbar';
-
+import React, {
+  Component
+} from 'react';
+import Homepage from './components/UI/Homepage/Homepage';
 import './App.css';
 
-function App() {
-  return (<div className="App">
-    <Topbar/>
+class App extends Component {
+
+
+  render() {
+    return (<div className="App">
+    <Homepage/>
   </div>);
+  }
 }
 
 export default App;

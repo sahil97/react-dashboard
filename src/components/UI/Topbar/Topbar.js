@@ -6,7 +6,7 @@ const topbar = (props) => {
   return (<Container className="topbarContainer">
     <Container className="topbarWrapper">
       <Container className="topbarLeft">
-        <button className="topbarBurgerButton" type="button">
+        <button className="topbarBurgerButton" type="button" onClick={()=>props.toggleSidebar()}>
           <img src="img/burger.svg" alt="burger-collapsible-navbar-icon"/></button>
       </Container>
       <Container className="topbarRight">

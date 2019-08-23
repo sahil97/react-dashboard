@@ -74,3 +74,9 @@
   width: 16px;
   margin: auto;
 }
+
+@media (min-width: 768px){
+  .topbarBurgerButton{
+    display: none;
+  }
+}

@@ -1,0 +1,53 @@
+.sidebarRoot.MuiList-root{
+  position:fixed;
+  height: 100%;
+  margin: 60px 0 0 0;
+  box-shadow: 0 1px 30px 1px rgba(0,0,0,.11);
+  z-index:100;
+  /* display: none; */
+  width: 240px;
+  transition: display 2s;
+}
+
+.sidebarRoot.MuiList-root.no-width{
+  display: none;
+}
+
+
+.sidebarRoot.MuiList-root.have-width{
+  display: block;
+}
+
+
+
+.nested{
+  padding-left: 8px;
+}
+
+.sidebarNestedItem.MuiListItem-root{
+  padding-left: 48px;
+  padding-top: 0;
+}
+
+
+
+.sidebarNestedItem .MuiTypography-body1{
+  font-size:0.9rem;
+}
+
+
+.sidebarNestedItem .MuiListItemIcon-root{
+  min-width: 42px;
+}
+
+@media (max-width:480px) {
+  .sidebarRoot.MuiList-root{
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px){
+  .sidebarRoot.MuiList-root{
+    display: block !important;
+  }
+}
