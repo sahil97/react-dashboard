@@ -1,0 +1,15 @@
+.curvedProgressBar .panelTitle{
+  color:#646777;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+
+.curvedProgressBar .subtitle{
+  text-transform: none;
+  font-size: 12px;
+  line-height: 18px;
+  opacity: .7;
+  color:#999;
+}
