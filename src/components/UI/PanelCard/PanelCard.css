@@ -1,0 +1,9 @@
+.PanelCard{
+  background: #fff;
+  margin: 12px;
+  margin-left: 0px;
+  font-size: 14px;
+  padding: 14px;
+  border-radius: .25rem;
+  word-wrap: break-word;
+}

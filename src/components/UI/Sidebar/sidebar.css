@@ -14,10 +14,18 @@
 }
 
 
+.sidebarRoot .MuiTypography-body1{
+  font-size: 12px;
+
+}
+
 .sidebarRoot.MuiList-root.have-width{
   display: block;
 }
 
+.sidebarRoot .MuiListItemText-root{
+  margin: 0;
+}
 
 
 .nested{
@@ -36,7 +44,7 @@
 }
 
 
-.sidebarNestedItem .MuiListItemIcon-root{
+.sidebarRoot .MuiListItemIcon-root{
   min-width: 42px;
 }
 

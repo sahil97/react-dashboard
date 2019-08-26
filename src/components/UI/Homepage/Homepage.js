@@ -6,6 +6,11 @@ import React, {
 import Topbar from '../Topbar/Topbar';
 import Sidebar from '../Sidebar/Sidebar';
 import Aux from '../../HOC/Aux/Aux';
+import {
+  Route,
+  Switch
+} from "react-router-dom";
+import page1 from '../../pages/page1/page1';
 
 class Homepage extends Component {
 
@@ -31,6 +36,9 @@ class Homepage extends Component {
       <Aux>
         <Topbar toggleSidebar={this.toggleSidebar}/>
          <Sidebar showSidebar={this.state.showSidebar}/ >
+           <Switch>
+             <Route path="/" component={page1} />
+           </Switch>
       </Aux>
     )
 
